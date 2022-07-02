@@ -46,10 +46,11 @@
     font-size: 1.3rem;
 }
 .navbar-links li a:hover{
-	color:#F14F7B;
+    color: #F14F7B;
 }
 .navbar-links li:hover {
     background-color: #fff;
+    border-radius: 5px;
 }
 
 .toggle-button {
@@ -225,9 +226,12 @@ button{
     border-color: #ffffff;
     color:#ffffff;
     width:180px;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
+}
+button:hover{
+    transform: scale(1.1);
 }
 .footer1,button{
     text-align:center;
@@ -354,8 +358,8 @@ float: none;
         font-size: 23px;
         width: 450px;
         line-height: 30px;
-	top:200px;
-	       
+        top: 200px;
+        z-index: 1;
        }
        #onbehalf,#phone{
            width: 350px;
