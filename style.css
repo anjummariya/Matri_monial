@@ -45,9 +45,11 @@
     padding: 1rem;
     font-size: 1.3rem;
 }
-
+.navbar-links li a:hover{
+	color:#F14F7B;
+}
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: #fff;
 }
 
 .toggle-button {
@@ -352,6 +354,8 @@ float: none;
         font-size: 23px;
         width: 450px;
         line-height: 30px;
+	top:200px;
+	       
        }
        #onbehalf,#phone{
            width: 350px;
