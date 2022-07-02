@@ -52,13 +52,13 @@
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top:1.3rem;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 20px;
 }
 
 .toggle-button .bar {
@@ -273,17 +273,16 @@ color:#ffffff
 }
 
 .header a:hover {
-
 color:white;
 }
 .header a.active {
-
 color: white;
 }
-
-
 .header-right {
 float: right;
+}
+.extra{
+    padding: 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -351,13 +350,9 @@ float: none;
        }
        .quote {
         font-size: 23px;
-        top: 250px;
-        left: 100px;
         width: 450px;
-        right: 0;
         line-height: 30px;
-        z-index: 1;
-    }
+       }
        #onbehalf,#phone{
            width: 350px;
  }
@@ -532,23 +527,31 @@ body{
 }
 .try{
     display: flex;
-    margin: auto 50px;
+    margin: auto;
+    flex-wrap: wrap;
     padding:50px;
     justify-content: center;
 }
 .cont{
   width:220px;
   height:220px;
-  border:#8e8e8e solid 2px;
+  border:#f14f7b solid 2px;
   border-radius: 10px; 
-  margin:10px;  
+  margin:15px 50px; 
+  padding: 10px; 
 }
 .cont i{
-    width: 60px;
-    height:60px;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 20px;
    justify-content: center;
+}
+.cont h2{
+    margin-top: 25px;
+    padding-top: 0;
+    font-size: 20px;
+}
+.cont p{
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 .link{
     text-align: center;
@@ -579,30 +582,7 @@ body{
         width:100vw;
         margin:0px;
         padding:0px;
-        display:inline;
     }
-    .cont{
-        width:50vw;
-        height:30vh;
-        margin:auto;
-        margin-bottom: 10px;
-        padding:2px;
-        
-       
-    }
-    .cont h2{
-        width:25vw;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin:auto;
-    }
-    .cont p{
-        margin:0px;
-       font-size:large;
-    }
-    .cont img{
-        width:30px;
-        height:30px;    }
 }
 /* ------ */
 footer{
@@ -654,8 +634,6 @@ footer p{
     color: #FFFFFF;
  }
  .copyright{
-    position: absolute;
-    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -685,10 +663,12 @@ footer p{
  }
  .border-tp{
     border-top: 0;
+    padding: 0;
  }
  /* media queries */
 
  @media (max-width:500px){
+
     .text1 p {
         font-size: 0.8rem;
     }
